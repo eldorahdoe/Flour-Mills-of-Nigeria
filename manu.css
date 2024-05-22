@@ -1,0 +1,267 @@
+*{border:0;
+margin:0;
+box-sizing:border-box;
+}
+
+body{background-color: white;
+  font-family:"apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", Ubuntu, Cantarell, "Helvetica Neue", sans-serif
+}
+#logo{display:flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 55px;
+padding-left:30px;}
+#logo img {width:70px;
+height:50px;}
+#search .bx-search{font-size:24px;
+color:grey;
+font-weight:bolder;
+padding-bottom:60px;}
+#search .bx-search::after{content:"";
+  display:block;
+  margin:auto 20px;
+  width:80%;
+  padding-top:15px;
+  border-bottom:1px solid #281e5d;}
+#search img{width:20px;
+height:20px;}
+
+#head-nav {position:sticky;
+border:none;}
+#nav {float:left;
+text-align:center;
+padding:10px;
+font-size:14px;
+border-radius:5px;
+line-height:10px;
+color:black;
+text-decoration:none;}
+
+#nav ul {list-style-type: none;
+  display: flex;
+  overflow: hidden;
+  padding:0;
+  justify-content: right;
+  text-align:center;
+font-weight:bold}
+#nav li {float:right;
+}
+#nav li a {display:inline-flex;
+text-decoration:none;
+color:#000;
+text-align: center;
+padding:10px;
+font-size:14px;}
+li a:hover {color:green;
+padding:10px;
+transition:all 0.2s;}
+select{width:50px;
+border:none;
+outline:none;
+}
+#feed{min-height:100px;
+  width:100%;
+  position:relative;
+}
+#feed img{width:100%;
+height:560px;}
+#feed-txt{position:absolute;
+  top:60%;
+  left:5%;
+  width:50%;
+  text-align:center;
+}
+#nig{width:45%;
+color:white;
+font-weight:bolder;
+font-size: 40px;
+text-align:center;}
+#feed-txt p{color:white;
+font-size:18px;
+text-align:center;
+line-height: 25px;
+font-weight:lighter ;
+
+}
+#feed-btn a {background-color:green;
+color:white;
+text-decoration:none;
+font-size:16px;
+padding:10px;
+margin:10px;
+text-transform: uppercase;
+}
+#feed-arr{outline:silver;
+  width:25px;
+border:1px solid white;
+color:white;
+background-color: green;
+border-radius:5px;}
+
+#divisions{display:flex;
+justify-content: space-evenly;
+align-items:center;
+}
+#food-div img {width:300px;
+height:350px;
+}
+#agro-div img{width:300px;
+height:350px;}
+#sugar img {width:300px;
+height:350px;}
+#support img {width:300px;
+height:350px;}
+
+#food-txt {background-color: grey;
+margin:5px 10px,0 35px;
+text-align:center;
+padding:5px 10px, 15px, 0;
+color:white;
+font-size:20px;
+}
+#food-txt p{text-decoration: none;}
+#food-txt p:hover{background-color: green;}
+#latest{min-width:1000px;
+margin:90px;
+background-image:url('https://flourmills.s3.eu-central-1.amazonaws.com/images/news-bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height:300px;
+}
+#latest{display:flex;
+justify-content:space-between;
+align-items: center;
+}
+#lts-img h4{margin-left:10px;
+margin-bottom:20px;}
+
+#lts-img img{height:170px;
+width:210px;
+margin:30px;}
+#lts-fmn {width:25%;}
+#lts-fmn{text-transform: capitalize;
+text-align:center;
+text-wrap:wrap ;
+}
+#lts-sus img {height:170px;
+  width:210px;}
+  #lts-rep {text-transform: capitalize;
+    text-align:center;
+    text-wrap:wrap ;
+    width:25%;
+    }
+    #win-brand{display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #winning{width:50%;
+  background-color:#333333;
+  color:white;
+
+  height:305px;
+
+}
+#winning h2{margin:40px;
+  margin-bottom: 12px;
+}
+#winning p{text-wrap:wrap;
+  margin-left:40px;
+}
+  #winning-img img{height: 305px;
+    width:350px;}
+    #pot {width:140px;
+    height: 60px;
+  outline:white;
+  border:1px solid white;
+background-color: #333333;
+color:white;
+margin:20px;
+padding:20px;
+}
+#green {background-color: green;
+height:305px;
+width:120px;}
+#brands h2{text-align:center;
+font-size: 30px;}
+#brands {position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;}
+#brands h2:before{
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 500px;
+  background: black;
+}
+#brands h2:after{
+  content:" ";
+  height: 2px;
+  width: 200px;
+  background:black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 500px;
+}
+#brands-img {display:flex;
+justify-content:space-around;
+align-items:center;
+
+}
+#foot {display:flex;
+justify-content: space-around;
+align-items:center;
+background-color:gainsboro;}
+#foot h4 {color:green;}
+#inp{width:250px;
+height:45px;
+outline:#333333;
+border:2px solid #333333;
+}
+#foot ul{list-style-type: none;}
+#foot ul li::before{content:"\2022";
+  color:green;
+  font-weight:bold;
+  display: inline-block;
+  width:1em;
+  margin-left:1em;
+}
+#foot-3 a{text-decoration: none;
+  font-size:18px;
+  color:white;
+  background-color: #333333;
+  padding:10px;
+  
+}
+#footers{display:flex;
+justify-content: space-around;
+align-items: center;
+background-color: gainsboro;}
+#footers a {text-decoration: none;
+color:black;}
+#footers h5 {color:#333333;
+  margin-top:30px;
+  text-align:left;
+font-size:30px;
+margin-bottom: 20px;
+
+}
+#footers h5::after{content:"";
+  display:block;
+  margin:auto 10px;
+  width:80%;
+  padding-top:10px;
+  border-bottom:1px solid black;}
+#disc p{font-size:smaller;
+font-weight: lighter;
+text-align: center;}
+#disc {background-color: gainsboro;}
+footer{text-align:center;
+color:white;
+background-color: grey;
+height:30px;
+font-size: 14px;}
